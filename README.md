@@ -193,7 +193,7 @@ YouxMusic/
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/yourusername/YouxMusic.git
+git clone https://github.com/Youxyyy/YouxMusic.git
 cd YouxMusic
 ```
 
@@ -459,26 +459,6 @@ def upload_file():
     file.save(os.path.join('uploads', filename))
     return jsonify({"path": f"/uploads/{filename}"})
 ```
-
----
-
-## 📸 项目截图
-
-### 用户端界面
-
-#### 首页
-![首页](screenshots/home.png)
-
-#### 歌曲列表
-![歌曲列表](screenshots/songs.png)
-
-#### 个人中心
-![个人中心](screenshots/mine.png)
-
-### 管理端界面
-
-#### 管理后台
-![管理后台](screenshots/admin.png)
 
 ---
 
